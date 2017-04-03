@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :poems, only: [:index]
+  resources :poems, only: [:index, :show]
   root 'poems#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
